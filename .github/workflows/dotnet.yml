@@ -27,11 +27,8 @@ jobs:
     - name: Setup Nuget
       uses: Nuget/setup-nuget@v1
       
-    - name: Restore nuget packages
-      run: nuget restore Gopher/Gopher.csproj
-      
     - name: Restore dependencies
-      run: dotnet restore
+      run: dotnet restore Gopher/Gopher.csproj
       
     - name: Build
       run: dotnet build --no-restore
