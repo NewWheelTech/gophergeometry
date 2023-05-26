@@ -11,7 +11,7 @@ using Rhino.PlugIns;
 [assembly: PlugInDescription(DescriptionType.Email, "mnewberg@newwheeltechnology.com")]
 [assembly: PlugInDescription(DescriptionType.Phone, "-")]
 [assembly: PlugInDescription(DescriptionType.Fax, "-")]
-[assembly: PlugInDescription(DescriptionType.Organization, "-")]
+[assembly: PlugInDescription(DescriptionType.Organization, "New Wheel Technology LLC")]
 [assembly: PlugInDescription(DescriptionType.UpdateUrl, "-")]
 [assembly: PlugInDescription(DescriptionType.WebSite, "http://newwheeltechnology.com/")]
 
@@ -24,7 +24,7 @@ using Rhino.PlugIns;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Gopher")]
-[assembly: AssemblyCopyright("Copyright © 2022")]
+[assembly: AssemblyCopyright("Copyright © 2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
