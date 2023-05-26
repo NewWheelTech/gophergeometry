@@ -402,6 +402,7 @@
     <None Include="geometry3Sharp\geometry3Sharp.asmdef" />
     <None Include="geometry3Sharp\LICENSE" />
     <None Include="geometry3Sharp\README.md" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="geometry3Sharp\bin\Debug\geometry3.dll" />

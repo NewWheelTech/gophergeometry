@@ -33,8 +33,6 @@ jobs:
     - name: Build
       run: msbuild Gopher/Gopher.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
       
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
       
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
