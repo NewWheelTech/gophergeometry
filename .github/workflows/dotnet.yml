@@ -28,11 +28,11 @@ jobs:
       uses: Nuget/setup-nuget@v1
      
     - name: Restore nuget packages
-      run: nuget restore Gopher/Gopher.csproj
+      run: nuget restore Gopher.sln
     
     - name: Build
-      run: msbuild Gopher/Gopher.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
-      
+      run: msbuild Gopher.sln -t:rebuild -verbosity:diag -property:Configuration=Release
+    
       
     - name: 'Upload Artifact'
       uses: actions/upload-artifact@v3
