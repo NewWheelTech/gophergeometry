@@ -30,11 +30,8 @@ jobs:
     - name: Restore nuget packages
       run: nuget restore Gopher/Gopher.csproj
     
-    - name: Restore dependencies
-      run: dotnet restore
-      
     - name: Build
-      run: dotnet build --no-restore
+      run: msbuild Gopher/Gopher.csproj -t:rebuild -verbosity:diag -property:Configuration=Release
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
